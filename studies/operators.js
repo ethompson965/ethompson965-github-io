@@ -29,6 +29,22 @@ var y=5;// Assigns the value 5 to the variable y
  //Example: typeof operator
  typeof "Bob"; // returns string
  
+ //Conditional (tenary) operators assign a value to a variable based on some condition
+ //Conditional operators are usually used in conditional statements 
+ //Example
+ var greeting;
+ var hour = 19;
+ if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening"; //The code resolves to this condition because the hour > 18
+}
+
+//unary operators are operators with only one operand such as plus(+) and (-). These operators are 
+//the simplest form of operators 
+//Example 
+10+7; //resolves to 17 
+ 
  
  
  
