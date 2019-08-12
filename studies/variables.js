@@ -43,11 +43,11 @@ inside of the function*/
 /*However the variables with the keyword var assigned inside a function cannot be accessed outside
  a function */
 //Example(accessing var in global scope) 
-{
+{//function block
   var a=10;
   console.log(a); //prints to the console a value of 10
 } //block 1 
-{
+{//function block
   a++;
   console.log(a);//Because a is accessed from the global scope, a still equals 10 and is added to 1
 } //block 2
@@ -86,6 +86,20 @@ const c = 8;
 console.log(c); //prints 8 to the console
 c = 11;
 console.log(c);//prints a TypeError because c cannot be reassigned 
+
+/*Hoisting: Hoisting is a Javascript mechanism where variables variables and function declarations
+*are moved to the top of their scope before code execution
+*This means that no matter where functions and variables are declared, they are moved to the top
+*of their scope regardless of whether their scope is global or local*/
+//Example
+var x; // Declare x
+x = 5; // Assign 5 to x
+//Javascript only hoists declarations, not initializations
+//Example
+var x = 5; // Initialize x
+var y = 7; // Initialize y
+
+
 
 
 

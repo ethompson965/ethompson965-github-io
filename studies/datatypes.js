@@ -66,7 +66,7 @@ console.log(a.tree);//prints palm
 
 //Arrays are datatypes that hold multiple values in a single variable
 //values are stored in arrays with using square brackets that surround the values
-[1, 'pie', null]//differend datatypes stored in an array
+[1, 'pie', null]//different datatypes stored in an array
 //Arrays: Example
 var myArray = [1, "String", []]; //Array holding multiple datatypes
 /*Elements stored in an array can be accessed by referring the index number of that element
@@ -95,6 +95,12 @@ console.log(myArr); //[ 2, 'a', null ]
 //Objects: Example
 var obj = {type1: "tree", type2: "grass"};// object with values "tree" and "grass" 
 // assigned to their respective keys type1 and type2
+//We can access objects in an array with a method known as dot notation 
+//Example 
+console.log(obj.type1)// accesses "tree" in the obj object" and prints "tree" to console;
+//Object keys and there values can also be added with dot notation
+//Example
+obj.type3 = "bush"; // adds "bush" value to a type3 key in the 'obj' object
 
 //Functions are a set of instructions in Javascript used to carry out blocks of code to
 // perform a task. 

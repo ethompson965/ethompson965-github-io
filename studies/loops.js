@@ -41,7 +41,7 @@ console.log(n); //prints 3 to the console
 //An array can be iterated backwards in a while loop just  like  in a for loop 
 //Example
 var arr2 = [1, 2, 3];
-var i = arr.length + 1
+var i = arr2.length - 1
 while (i--)// stopping condition {
   console.log(i);//prints 3, 2, 1, 0
 }

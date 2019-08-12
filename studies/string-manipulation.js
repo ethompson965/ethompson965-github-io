@@ -79,6 +79,15 @@ console.log(up);// Prints the string "WHERE ARE THEY" in all capital letters
 var str5 = "Where are they";
 var up2 = str5.toUpperCase();
 console.log(up2); //Prints the string "where are they" in all lower case letters
+//String manipulation with operators
+/*The concatenation operator (+) concatenates two or more string values together and 
+return another string which is the union of the two operand strings.*/
+//Example
+var str = '';
+str.concat('It'.concat(' is',' a',' great',' day.'));//prints 'It is a great day.'
+//Example: Using the concat symbol
+var str2 = "I'm " + "here";
+console.log(str2);//Prints "I'm here" to the console
 
 
 
