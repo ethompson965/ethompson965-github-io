@@ -43,14 +43,11 @@ inside of the function*/
 /*However the variables with the keyword var assigned inside a function cannot be accessed outside
  a function */
 //Example(accessing var in global scope) 
-{//function block
   var a=10;
   console.log(a); //prints to the console a value of 10
-} //block 1 
-{//function block
   a++;
   console.log(a);//Because a is accessed from the global scope, a still equals 10 and is added to 1
-} //block 2
+ //block 2
 //Example(var in local scope)
 function block1() {
 var a=10;

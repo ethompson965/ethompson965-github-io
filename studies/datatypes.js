@@ -66,7 +66,7 @@ console.log(a.tree);//prints palm
 
 //Arrays are datatypes that hold multiple values in a single variable
 //values are stored in arrays with using square brackets that surround the values
-[1, 'pie', null]//different datatypes stored in an array
+var misc = [1, 'pie', null];//different datatypes stored in an array
 //Arrays: Example
 var myArray = [1, "String", []]; //Array holding multiple datatypes
 /*Elements stored in an array can be accessed by referring the index number of that element
@@ -107,7 +107,7 @@ obj.type3 = "bush"; // adds "bush" value to a type3 key in the 'obj' object
 // Example:
 function toCelsius(fahrenheit) { //Declares a function named to Celsius
     return (5/9) * (fahrenheit-32); /* returns a value converted from fahrenheit to 
-                                    Celsius         */
+                                     Celsius         */
 }
 toCelsius(95); // calls a function, printing to the console a value of 35
 
