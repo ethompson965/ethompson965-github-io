@@ -20,13 +20,29 @@ var y=5;// Assigns the value 5 to the variable y
  
  //Comparison operators determine equality or difference between variables or values
  // <-less than
- //  >-greater than, 
+ //Example
+ var a = 3;
+ var b = 5;
+ console.log(a<b) // since a is less than b, prints true to the console
+ //  >-greater than
+ //Example
+ var c = 4;
+ var d = 8;
+ console.log(c>d)//because c is not greater than d, prints false to the console
  //  <=-less than or equal to
- //   >=-greater than or equal to, 
+ //Example 
+ var c = 5;
+ var d = 5;
+ console.log(c <= d) //because c is equal to d, prints true to the console 
+ //   >=-greater than or equal to
+ var f = 10;
+ var g = 11;
+ console.log(g >= f); //g meets one of the conditions of greater or equal, so prints true  
  //   ===-strictly comparision, resolves to true or false
+ console.log(8 === 8);//resolves to true 
  //   !==-stricly not equal 
- //Example: Comparison operators
- 8 === 8;//resolves to true 
+ console.log(8 !== 8);
+ //Example: Comparison operators 
  //*Loose comparision vs. strict comparison 
  /*With comparison operators, both the loose comparison and strict comparison operators
  compare two values for equality. However there is a different degree of comparison 
@@ -67,12 +83,12 @@ An expression which is evaluated if the condition evaluates
 An expression which is executed if the condition is falsy 
 (that is, has a value which can be converted to false).*/
  //Example using tenary operator
- let isStudent = true;
- let price = isStudent//used as condition
- ?8:12// '?' separates conditional from true value; A colon(:)separates true and false
- //exprIfTrue is on the left side of colon; the true condition is a student price of 8
- //exprIfFalse is on the right side of the colon; 12 is not a student price so value is false
-
+ let tree = true;
+ let palmTree = tree ? 'green' : 'not green' //'?' separates conditional from true value;
+ //A colon (:) separates the true value from the false value
+ //exprIfTrue is on the left side of the colon; returns evergreen if condition is true
+ //exprIfFalse is on the right side of the colon; returns value deciduous if condition is false
+console.log(palmTree);// prints 'green' to the console based on true condition
 
 //unary operators are operators with only one operand such as plus(+) and (-). These operators are 
 //the simplest form of operators 
@@ -85,7 +101,7 @@ An expression which is executed if the condition is falsy
 10-7; //resolves to 10
 //*Logical Not (!)	Converts to boolean value then negates it
 //Example
-!false;//changes false to true
+!false;//changes false to true  
 
 //*Increment (++)	Adds one to its operand
 //Example
